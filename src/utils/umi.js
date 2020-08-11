@@ -9,8 +9,7 @@ import { notification } from "ant-design-vue";
  * 全局 URI
  * @type string
  */
-export const BASE_URL = process.env.NODE_ENV === "production" ?
-    "/api": "/api";
+export const BASE_URL = process.env.NODE_ENV === "production" ? "/api": "/api";
 
 /**
  * 状态码文案
