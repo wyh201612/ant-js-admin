@@ -1,0 +1,36 @@
+{
+    "message": "登录成功",
+    "code": 0,
+    "result": [
+        {
+            "path": "/about",
+            "name": "表单",
+            "icon": "user",
+            "children": [
+                {
+                    "name": "基础表单",
+                    "path": "/about/index",
+                    "actions": [
+                        "update",
+                        "delete",
+                        "search",
+                        "export",
+                        "upload"
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/demo",
+            "name": "测试",
+            "icon": "user",
+            "children": [
+                {
+                    "name": "表格",
+                    "path": "/demo/table",
+                    "actions": []
+                }
+            ]
+        }
+    ]
+}
